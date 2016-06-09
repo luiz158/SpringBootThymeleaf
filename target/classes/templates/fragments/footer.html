@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+	<div th:fragment="footer">
+		<hr/>
+		<span th:text="#{home.version}" >
+			0.0.1
+		</span>	
+		<img class="pull-right" height="25px" src="https://jhipster.github.io/img/icons/thymeleaf.png" />
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="../../static/js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}" ></script>
+	</div>    
+</body>
+</html>
